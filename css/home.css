@@ -1,0 +1,42 @@
+/* Início */
+#inicio {
+    background-color: #000;
+    height: 32em;
+}
+
+.inicio-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.foto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #8a2be2;
+}
+
+.foto:hover{
+    transition: ease-in-out 0.75s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.info h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.info h1:hover {
+    color: #8a2be2;
+    cursor: default;
+    transition: all 0.5s;
+}
+
+.info p {
+    font-size: 1.2rem;
+    color: #ccc;
+    width: 50%;
+}
