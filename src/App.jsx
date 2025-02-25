@@ -24,7 +24,7 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Grazz",
+  name: "",
   title: "desenvolvendo uma parte oculta",
   email: "gacascardi@outlook.com",
   gitHub: "gacascardi",
