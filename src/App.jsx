@@ -25,10 +25,10 @@ import "./styles.css";
  */
 const siteProps = {
   name: "",
-  title: "desenvolvendo uma parte oculta",
-  email: "gacascardi@outlook.com",
-  gitHub: "gacascardi",
-  instagram: "grazz_arte",
+  title: "",
+  email: "",
+  gitHub: "https://github.com/gacascardi",
+  instagram: "https://www.instagram.com/grazzarte/",
   linkedIn: "",
   medium: "",
   twitter: "",
