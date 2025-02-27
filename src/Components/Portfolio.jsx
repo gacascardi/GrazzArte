@@ -21,7 +21,7 @@ import React from "react";
  */
 import image from "../images/foto.png";
 
-const imageAltText = "grazz_arte";
+const imageAltText = "um pouco de mim";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "grazz_arte";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Aprendizado em Azure Static Web Apps",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Aprendizado contínuo em parceria com grupos de estudo e comunidade de iniciantes Github.",
+    url: "https://github.com/gacascardi/azure-static-web-apps",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Social Media e Marketing Designer (Em constante desenvolvimento)",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Paixão por criação de artes para redes sociais e marketing digital.",
+    url: "https://www.instagram.com/grazz_arte/",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Portfólio de aprendizado e prática de desenvolvimento web, com foco em HTML, CSS e JavaScript.",
+    url: "https://github.com/gacascardi/my-resume-site",
   },
   {
     title: "GitHub Codespaces and github.dev",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Percorrendo caminhos de aprendizagem com GitHub.dev, Github Pages e GitHub Codespaces para aperfeiçoamentos",
+    url: "https://github.dev/gacascardi",
   },
 ];
 

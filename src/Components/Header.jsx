@@ -11,20 +11,29 @@ const Header = () => {
     <div
       style={{
         position: "fixed",
+        fontSize: "1.1rem",
         display: "flex",
         justifyContent: "center",
         gap: "2rem",
-        background: "rgb(154, 150, 150)",
+        background: "rgba(5, 5, 5, 0.0)",
         padding: "1rem",
         top: 0,
         width: "100%",
         zIndex: 10,
       }}
     >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+      <a className="header-menu" href="#home">
+        Início
+      </a>
+      <a className="header-menu" href="#about">
+        Sobre
+      </a>
+      <a className="header-menu" href="#portfolio">
+        Portfolio
+      </a>
+      <a className="header-menu" href="#footer">
+        Contato
+      </a>
     </div>
   );
 };
