@@ -38,8 +38,7 @@ const projectList = [
   },
   {
     title: "Social Media e Marketing Designer (Em constante desenvolvimento)",
-    description:
-      "Paixão por criação de artes para redes sociais e marketing digital.",
+    description: "Paixão por criação de artes para redes sociais e marketing digital.",
     url: "https://www.instagram.com/grazz_arte/",
   },
   {
