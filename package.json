@@ -1,7 +1,7 @@
 {
-  "name": "GrazzArte-test-page",
+  "name": "GrazzTestPage",
   "version": "1.0.0",
-  "description": "Meu Projeto em construção",
+  "description": "GrazzTestPage Template",
   "source": "src/index.html",
   "homepage": "https://gacascardi.github.com/my-test-page",
   "scripts": {
