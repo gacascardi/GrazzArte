@@ -1,7 +1,7 @@
 {
-  "name": "grazz-test-page",
+  "name": "my-test-page",
   "version": "1.0.0",
-  "description": "GrazzTestPage Template",
+  "description": "TestPage Template",
   "source": "src/index.html",
   "homepage": "https://gacascardi.github.com/my-test-page",
   "scripts": {
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://gacascardi.github.com/microsoft/my-test-page.git"
   },
-  "author": "GrazzArte",
+  "author": "gacascardi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gacascardi/my-test-page/issues"
