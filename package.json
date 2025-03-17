@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "TestPage Template",
   "source": "src/index.html",
-  "homepage": "https://gacascardi.github.com/my-test-page",
+  "homepage": "https://www.cascardi.tech/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://gacascardi.github.io/my-test-page'",
+    "build-gh": "parcel build --public-url 'https://www.cascardi.tech/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gacascardi.github.com/microsoft/my-test-page.git"
+    "url": "git+https://github.com/gacascardi/GrazzArte.git"
   },
   "author": "gacascardi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gacascardi/my-test-page/issues"
+    "url": "https://github.com/gacascardi/GrazzArte/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
