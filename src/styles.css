@@ -23,6 +23,7 @@ div#main {
 section {
   position: relative;
   width: 100vw;
+  
 }
 
 section.min-height {
@@ -38,7 +39,7 @@ section.min-height {
 /*itens primeiro quadro*/
 section.padding {
   padding: 1rem 0;
-  color: #ad09a5;
+  color: #0838a0;
 }
 
 section img.background {
@@ -58,80 +59,86 @@ h1 {
   font-weight: 400;
   line-height: 0.6;
   margin: 0;
-  color:#e40909;
+  color:#bd2f2f;
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   padding-top: 1rem;
   color:#3bfa2a;
 }
-
+/*subtítulos seções*/
 h3 {
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
   margin: 0;
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.2;
   margin-bottom: 0;
   font-weight: 300;
   color: #1c971c;
 }
-
+/*subtitulo primeiro quadro*/
 p.large {
   font-size: 24px;
 }
-
+/*conteudo seções*/
 p.small {
-  font-size: 16px;
-  color:#000200;
+  font-size: 17px;
+  font-weight: 300;
+  color:#160ca8;
 }
 
 hr {
   margin: 2.9rem;
+  border: 0;
+  display: relative;
+  border-top: 1px solid #1c971c;
+  position: relative;
 }
 
 li {
-  line-height: 1.5;
+  line-height: 3.1;
 }
-
+/*bolinha*/
 li::marker {
-  color: #275c27;
+  color: #1fec30;
 }
 
 a {
-  text-decoration:#030302;
+  text-decoration:#e92525;
   font-weight: 600;
   font-size: 1.2rem;
   color: #37da37f1;}
 
 a:hover {
-  color: #00a2e2;
+  color: #f52dda;
 }
 
 .header-menu {
   color: rgb(50, 240, 25)
 }
-
+/*quadros seções*/
 .container {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 330px 300px;
-  margin: 20px auto;
+  margin: auto auto;
+  padding: 0%;
 }
 
 .container .box {
   border-radius: 10px;
-  border: 1px solid rgb(44, 124, 37);
+  border: 2px solid rgb(37, 22, 177);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 24px 16px;
+  padding: 50px 50px;
   text-align: center;
 }
 
@@ -140,6 +147,6 @@ img.socialIcon {
   width: 30px;
 }
 .background {
-  width: 80%; /* Altere para o tamanho desejado */
+  width: 100%; /* Altere para o tamanho desejado */
   height: 100%; /* Altere para o tamanho desejado */
 }

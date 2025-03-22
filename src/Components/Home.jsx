@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 import image from "../images/inicio.png";
 import "../styles.css"; // Certifique-se de importar o arquivo CSS
@@ -28,21 +27,39 @@ const imageAltText = "1 das partes ocultas de mim";
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt={imageAltText} />
+      <img
+        className="background"
+        src={image}
+        alt={imageAltText}
+        style={{
+          zIndex: 1,
+          position: "relative",
+          objectFit: "cover",
+          height: "auto",
+          width: "100%",
+          backgroundSize: "cover",
+          filter: "brightness(70%)",
+          borderRadius: "70px",
+          boxShadow: "-6px -6px 9px 9px rgba(18, 243, 29, 0.56)",
+          display: "flex",
+        }}
+      />
       <div
         style={{
           position: "absolute",
-          top: "5rem",
-          left: "8rem",
+          display: "flex",
+          flexDirection: "column",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          textAlign: "center",
           width: "100%",
           height: "auto",
+          zIndex: 2, // Ensures text is above the image
         }}
       >
-        <h1>{name}</h1>
-        <h2>{title}</h2>
-      </div>
-      <div style={{ position: "absolute", bottom: "2rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <h1 style={{ fontSize: "2.5rem" }}>{name}</h1>
+        <h2 style={{ fontSize: "1.5rem" }}>{title}</h2>
       </div>
     </section>
   );
