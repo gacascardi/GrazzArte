@@ -179,6 +179,7 @@ a:hover {
 /*quadros seções*/
 .container {
   display: grid;
+  display: flex-center;
   grid-gap: 20px;
   grid-template-columns: 330px 300px;
   margin: auto auto;
@@ -189,7 +190,10 @@ a:hover {
   border-radius: 10px;
   background-color: #18ec183b; /* Altere para a cor desejada */
   border: 4px solid rgba(78, 252, 35, 0.829);
-  display: flex;
+  display: flex-start;
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
   flex-direction: column;
   justify-content: flex-start;
   padding: 50px 50px;
