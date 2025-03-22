@@ -24,7 +24,7 @@ import "../styles.css"; // Certifique-se de importar o arquivo CSS
 
 const imageAltText = "1 das partes ocultas de mim";
 
-const Home = ({ name, title }) => {
+const Home = ({ title }) => {
   return (
     <section id="home" className="min-height">
       <img
@@ -57,7 +57,6 @@ const Home = ({ name, title }) => {
           zIndex: 2, // Ensures text is above the image
         }}
       >
-        <h1 style={{ fontSize: "2.5rem" }}>{name}</h1>
         <h2 style={{ fontSize: "1.5rem" }}>{title}</h2>
       </div>
     </section>
