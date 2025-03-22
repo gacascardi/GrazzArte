@@ -39,11 +39,12 @@ section.min-height {
 /*itens primeiro quadro*/
 section.padding {
   padding: 1rem 0;
-  color: #0838a0;
+  color: #f010ca;
+  font-weight: 600;
 }
 
 section img.background {
-  height: 100%; /* Alterado de 100% para 80% */
+  height: 100%; /* Alterado*/
   left: 50%;
   pointer-events: none;
   position:absolute;
@@ -77,11 +78,11 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 21px;
   line-height: 1.2;
   margin-bottom: 0;
-  font-weight: 300;
-  color: #1c971c;
+  font-weight: 500;
+  color: #70f1dc;
 }
 /*subtitulo primeiro quadro*/
 p.large {
