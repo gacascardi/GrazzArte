@@ -23,7 +23,7 @@ const imageAltText = "meu background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description = "Mas o primeiro amor a gente nunca esquece";
+const description = "Apaixonada por tecnologia e logística.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -36,11 +36,6 @@ const skillsList = [
   "Aprendizado contínuo",
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
 const detailOrQuote = `
 Sempre amei descobrir como as coisas funcionam e a tecnologia sempre foi minha paixão, mas hoje tenho um novo amor que é a Logística.
 
@@ -67,7 +62,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>Apaixonada por tecnologia e logística</h2>
+        <h2>O primeiro amor a gente nunca esquece.</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
@@ -75,7 +70,7 @@ const About = () => {
             textAlign: "left",
             columns: 2,
             fontSize: "1.25rem",
-            margin: "2rem 3rem",
+            margin: "2rem -5rem 2rem 2rem",
             gap: "3rem",
           }}
         >

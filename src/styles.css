@@ -61,7 +61,7 @@ section.min-height {
 }
 /*itens primeiro quadro*/
 section.padding {
-  padding: 1rem 0;
+  padding: 2rem 0;
   color: #f010ca;
   font-weight: 600;
   display: flex;
@@ -70,7 +70,7 @@ section.padding {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1rem 0;
+  padding: 4rem 0;
 }
 @media (min-width: 768px) {
   section.padding {
