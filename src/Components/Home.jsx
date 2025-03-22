@@ -37,7 +37,6 @@ const Home = ({ name, title }) => {
           objectFit: "cover",
           height: "auto",
           width: "100%",
-          backgroundSize: "cover",
           filter: "brightness(70%)",
           borderRadius: "70px",
           boxShadow: "-6px -6px 9px 9px rgba(18, 243, 29, 0.56)",
