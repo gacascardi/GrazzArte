@@ -18,7 +18,7 @@ import React from "react";
  */
 import image from "../images/background.png"; // Ensure this path is correct
 
-const imageAltText = "abstract background";
+const imageAltText = "meu background";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -29,7 +29,12 @@ const description = "Mas o primeiro amor a gente nunca esquece";
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = ["Tecnologia da Informação", "Logística", "Artes com imagens", "Aprendizado contínuo"];
+const skillsList = [
+  "Tecnologia da Informação",
+  "Logística",
+  "Artes com imagens",
+  "Aprendizado contínuo",
+];
 
 /**
  * Use this to give more information about what you are passionate about,
