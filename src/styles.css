@@ -71,8 +71,8 @@ h2 {
 }
 /*subtítulos seções*/
 h3 {
-  font-weight: 500;
-  font-size: 1.2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
   margin: 0;
 }
 
@@ -89,9 +89,9 @@ p.large {
 }
 /*conteudo seções*/
 p.small {
-  font-size: 17px;
-  font-weight: 300;
-  color:#160ca8;
+  font-size: 20px;
+  font-weight: 500;
+  color:#7ea0ff;
 }
 
 hr {
@@ -134,7 +134,8 @@ a:hover {
 
 .container .box {
   border-radius: 10px;
-  border: 2px solid rgb(37, 22, 177);
+  background-color: #18ec183b; /* Altere para a cor desejada */
+  border: 4px solid rgba(78, 252, 35, 0.829);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
