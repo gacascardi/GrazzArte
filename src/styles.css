@@ -41,6 +41,9 @@ section.padding {
   padding: 1rem 0;
   color: #f010ca;
   font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {
