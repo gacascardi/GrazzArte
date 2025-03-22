@@ -41,16 +41,35 @@ section.padding {
   padding: 1rem 0;
   color: #f010ca;
   font-weight: 600;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 1.2rem;
+  padding: 1rem 0;
 }
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   section.padding {
-    padding: 0.5rem 0;
-    font-size: 0.9rem;
+    padding: 2rem 4rem;
   }
+  section img.background {
+    height: auto;
+  }
+  section img.background {
+    height: 100%;
+    left: 50%;
+    pointer-events: none;
+    position:absolute;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 100vmax;
+  }
+  section img.background {
+    z-index: -1;
+  }
+
+
 }
 
 section img.background {
