@@ -31,27 +31,26 @@ const imageAltText = "um pouco de mim";
  */
 const projectList = [
   {
-    title: "Aprendizado em Azure Static Web Apps",
-    description:
-      "Aprendizado contínuo em parceria com grupos de estudo e comunidade de iniciantes Github.",
-    url: "https://github.com/gacascardi/azure-static-web-apps",
-  },
-  {
-    title: "Social Media e Marketing Designer (Em constante desenvolvimento)",
-    description: "Paixão por criação de artes para redes sociais e marketing digital.",
+    title: "Social Media e Marketing Designer ",
+    description: "Uma outra parte de mim que é a paixão por criação de artes visuais e marketing digital.",
     url: "https://www.instagram.com/grazz_arte/",
   },
   {
-    title: "My Resume Site",
+    title: "Minha primeira página",
     description:
-      "Portfólio de aprendizado e prática de desenvolvimento web, com foco em HTML, CSS e JavaScript.",
-    url: "https://github.com/gacascardi/my-resume-site",
+      "Essa é minha primeira página criada com React e hospedada no GitHub Pages, onde compartilho um pouco de mim.",
+    url: "https://github.com/gacascardi/grazzarte",
   },
   {
     title: "GitHub Codespaces and github.dev",
     description:
-      "Percorrendo caminhos de aprendizagem com GitHub.dev, Github Pages e GitHub Codespaces para aperfeiçoamentos",
+      "Meu ambiente de desenvolvimento onde pratico e aprendo mais sobre ferramentas e tecnologias.",
     url: "https://github.dev/gacascardi",
+  },
+  {
+    title: "Projeto Surpresa",
+    description: "Durante meu aprendizado tenho um projeto em andamento que estou desenvolvendo, onde colocarei em prática os conhecimentos adquiridos.",
+    url: "https://github.com/gacascardi", // Updated URL
   },
 ];
 
