@@ -43,6 +43,13 @@ section.padding {
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  section.padding {
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+}
+
 section img.background {
   height: 100%; /* Alterado*/
   left: 50%;
