@@ -32,7 +32,8 @@ const imageAltText = "um pouco de mim";
 const projectList = [
   {
     title: "Social Media e Marketing Designer ",
-    description: "Uma outra parte de mim que é a paixão por criação de artes visuais e marketing digital.",
+    description:
+      "Uma outra parte de mim que é a paixão por criação de artes visuais e marketing digital.",
     url: "https://www.instagram.com/grazz_arte/",
   },
   {
@@ -49,7 +50,8 @@ const projectList = [
   },
   {
     title: "Projeto Surpresa",
-    description: "Durante meu aprendizado tenho um projeto em andamento que estou desenvolvendo, onde colocarei em prática os conhecimentos adquiridos.",
+    description:
+      "Durante meu aprendizado tenho um projeto em andamento que estou desenvolvendo, onde colocarei em prática os conhecimentos adquiridos.",
     url: "https://github.com/gacascardi", // Updated URL
   },
 ];
