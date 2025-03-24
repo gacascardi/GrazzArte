@@ -56,7 +56,7 @@ const About = () => {
       <div
         style={{
           backgroundColor: "rgba(80, 240, 120, 0.1)",
-          width: "50%",
+          width: "70%",
           padding: "3rem",
           margin: "3rem auto",
           textAlign: "center",
