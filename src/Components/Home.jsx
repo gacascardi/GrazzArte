@@ -24,7 +24,8 @@ import "../styles.css"; // Certifique-se de importar o arquivo CSS
 
 const imageAltText = "1 das partes ocultas de mim";
 
-const Home = ({ title }) => {
+// eslint-disable-next-line no-empty-pattern
+const Home = () => {
   return (
     <section id="home" className="min-height">
       <img
@@ -32,33 +33,15 @@ const Home = ({ title }) => {
         src={image}
         alt={imageAltText}
         style={{
-          zIndex: 1,
+          zIndex: 2,
           position: "relative",
-          objectFit: "cover",
           height: "auto",
           width: "100%",
           filter: "brightness(70%)",
           borderRadius: "70px",
           boxShadow: "-6px -6px 9px 9px rgba(18, 243, 29, 0.56)",
-          display: "flex",
         }}
       />
-      <div
-        style={{
-          position: "absolute",
-          display: "flex",
-          flexDirection: "column",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          textAlign: "center",
-          width: "100%",
-          height: "auto",
-          zIndex: 2, // Ensures text is above the image
-        }}
-      >
-        <h2 style={{ fontSize: "1.5rem" }}>{title}</h2>
-      </div>
     </section>
   );
 };

@@ -28,7 +28,10 @@
       ],
       "settings": {
         "emmet.includeLanguages": {
-          "javascript": "javascriptreact"
+          "javascript": "javascriptreact",
+          "typescript": "typescriptreact",
+          "javascriptreact": "javascriptreact",
+          "typescriptreact": "typescriptreact"
         },
         "emmet.triggerExpansionOnTab": true
       }
