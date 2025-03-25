@@ -24,7 +24,6 @@ import "../styles.css"; // Certifique-se de importar o arquivo CSS
 
 const imageAltText = "1 das partes ocultas de mim";
 
-// eslint-disable-next-line no-empty-pattern
 const Home = () => {
   return (
     <section id="home" className="min-height">
@@ -33,13 +32,15 @@ const Home = () => {
         src={image}
         alt={imageAltText}
         style={{
-          zIndex: 2,
+          zIndex: 1,
           position: "relative",
           height: "auto",
           width: "100%",
           filter: "brightness(70%)",
           borderRadius: "70px",
           boxShadow: "-6px -6px 9px 9px rgba(18, 243, 29, 0.56)",
+          display: "fixed",
+          objectFit: "cover",
         }}
       />
     </section>
