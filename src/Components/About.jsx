@@ -56,9 +56,9 @@ const About = () => {
       <div
         style={{
           backgroundColor: "rgba(80, 240, 120, 0.1)",
-          width: "70%",
-          padding: "3rem",
-          margin: "3rem auto",
+          width: "40%",
+          padding: "10rem",
+          margin: "4rem 3rem 4rem 3rem",
           textAlign: "center",
         }}
       >
@@ -68,10 +68,10 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem -5rem 2rem 2rem",
-            gap: "3rem",
+            columns: 1,
+            fontSize: "1.1rem",
+            margin: "2rem",
+            gap: "1rem",
           }}
         >
           {skillsList.map((skill) => (
@@ -79,7 +79,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 1rem" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 1rem 1rem" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

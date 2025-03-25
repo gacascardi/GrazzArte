@@ -87,9 +87,11 @@ section.min-height {
 
 /*itens primeiro quadro*/
 section.padding {
-  color: #f010ca;
+  color: #27dae7;
   font-weight: 600;
-  padding: 5rem 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
 }
 @media (min-width: 768px) {
   section.padding {

@@ -33,9 +33,10 @@ const Home = () => {
         alt={imageAltText}
         style={{
           zIndex: 1,
-          position: "relative",
+          position: "absolute",
+          top: "3rem",
           height: "auto",
-          width: "100%",
+          width: "auto",
           filter: "brightness(70%)",
           borderRadius: "70px",
           boxShadow: "-6px -6px 9px 9px rgba(18, 243, 29, 0.56)",
