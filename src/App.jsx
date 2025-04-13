@@ -10,7 +10,7 @@ import Services from "./Components/Services";
 import "./styles.css";
 
 const siteProps = {
-  name: "Grazi Cascardi",
+  name: "GrazzArte",
   title: "",
   email: "gacascardi@outlook.com",
   gitHub: "gacascardi",
