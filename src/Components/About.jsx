@@ -28,10 +28,10 @@ const About = () => {
       <img
         className="background"
         src={image}
-        style={{ 
-          height: "100%", 
-          width: "100%", 
-          objectFit: "cover", 
+        style={{
+          height: "100%",
+          width: "100%",
+          objectFit: "cover",
           position: "fixed",
         }} // corrected "relactive" to "relative"
         alt={imageAltText}
