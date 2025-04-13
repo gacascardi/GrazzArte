@@ -1,5 +1,3 @@
-
-
 import React from "react";
 
 import About from "./Components/About";
@@ -14,10 +12,10 @@ import "./styles.css";
 const siteProps = {
   name: "Grazi Cascardi",
   title: "",
-  email: "",
+  email: "gacascardi@outlook.com",
   gitHub: "gacascardi",
   instagram: "grazzarte",
-  linkedIn: "",
+  linkedIn: "gacascardi",
   medium: "",
   twitter: "",
   youTube: "",
