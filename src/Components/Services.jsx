@@ -37,7 +37,7 @@ const Services = () => {
         </div>
         <div className="box">
           <h3>📞 Consultoria</h3>
-          <p className="small">💻 Suporte técnico remoto — a partir de R$ 50</p>
+          <p className="small">💻 Suporte técnico remoto a partir de R$ 50</p>
         </div>
       </div>
     </section>
