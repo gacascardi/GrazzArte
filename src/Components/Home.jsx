@@ -14,7 +14,7 @@ const Home = () => {
         style={{
           zIndex: 1,
           position: "absolute",
-          top: "2rem",
+          top: "2em",
           marginBottom: "0",
           height: "490px",
           width: "100%",
