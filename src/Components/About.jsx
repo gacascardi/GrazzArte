@@ -10,7 +10,7 @@ const description =
 
 const skillsList = [
   "Estudante de Gestão da Tecnologia da Informação",
-  "Amo resolver problemas com tecnologia",
+  "Amo descobrir como tudo funciona",
   "Criativa e apaixonada por design",
   "Foco em soluções práticas e rápidas",
   "Aprendendo sempre!",
@@ -55,7 +55,7 @@ const About = () => {
             textAlign: "left",
             columns: 1,
             fontSize: "1.1rem",
-            margin: "1rem",
+            margin: "0",
             gap: "1rem",
           }}
         >

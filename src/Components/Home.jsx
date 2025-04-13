@@ -14,8 +14,8 @@ const Home = () => {
         style={{
           zIndex: 1,
           position: "absolute",
-          top: "2em",
-          marginBottom: "0",
+          top: "3em",
+          marginBottom: "100px",
           height: "490px",
           width: "100%",
           filter: "brightness(70%)",
