@@ -312,16 +312,4 @@ img.socialIcon {
     flex-direction: column;
     align-items: center;
   }
-  .header-menu a {
-    margin: 0.5rem 0;
-  }
-  .header-menu a:hover {
-    color: #f52dda;
-  }
-  .header-menu a.active {
-    color: #f52dda;
-  }
-  .header-menu a.active:hover {
-    color: #f52dda;
-  }
 }
