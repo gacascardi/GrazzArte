@@ -28,7 +28,12 @@ const About = () => {
       <img
         className="background"
         src={image}
-        style={{ height: "100%", width: "100%", objectFit: "cover", position: "fixed" }} // corrected "relactive" to "relative"
+        style={{ 
+          height: "100%", 
+          width: "100%", 
+          objectFit: "cover", 
+          position: "fixed",
+        }} // corrected "relactive" to "relative"
         alt={imageAltText}
       />
       <div
@@ -38,6 +43,8 @@ const About = () => {
           padding: "1rem",
           margin: "0",
           textAlign: "center",
+          objectFit: "cover",
+          position: "relative",
         }}
       >
         <h2>Prazer, Grazi!</h2>

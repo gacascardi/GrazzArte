@@ -20,19 +20,19 @@ const projectList = [
   {
     title: "GitHub Codespaces and github.dev",
     description:
-      "Meu ambiente de desenvolvimento onde pratico e aprendo mais sobre ferramentas e tecnologias. Clique no link da GITHub Codespaces para acessar meu repositório e explorar o código.",
+      "Meu ambiente de desenvolvimento onde pratico e aprendo mais sobre ferramentas e tecnologias. Clique no link da GitHub abaixo para acessar meu repositório e explorar os meus passos do meu aprendizado.",
     url: "https://github.dev/gacascardi",
   },
   {
-    title: "Sites em andamento",
+    title: "Aprendendo com GitHub Pages",
     description:
-      "Tenho projetos publicados em GitHub Pages e estou aprendendo sobre Microsoft Azure para expandir minhas habilidades em cloud e deploy.",
+      "Tenho projetos publicados em GitHub Pages com HTML, CSS, JavaScript e estou aprendendo sobre Microsoft Azure para expandir minhas habilidades em cloud e deploy.",
     url: "https://github.com/gacascardi", // Updated URL
   },
   {
     title: "Novo Projeto",
     description:
-      "Um projeto inovador que estou desenvolvendo para aprimorar minhas habilidades em programação.",
+      "Um projeto inovador que estou desenvolvendo para aprimorar minhas habilidades em programação e Desenvolvimento Web.",
     url: "https://github.com/gacascardi/mimos-da-dany",
   },
   {

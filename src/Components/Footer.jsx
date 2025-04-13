@@ -114,7 +114,7 @@ const Footer = (props) => {
 };
 
 Footer.defaultProps = {
-  name: "©2025 GrazzArte. Todos os direitos reservados.",
+  name: "GrazzArte. Todos os direitos reservados.",
 };
 
 Footer.propTypes = {

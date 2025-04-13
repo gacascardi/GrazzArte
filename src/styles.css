@@ -213,6 +213,10 @@ img.socialIcon {
     height: auto;
     object-fit: cover;
   }
+
+  section {
+    margin-bottom: 0.5rem; /* Reduz o espaço abaixo do banner */
+  }
 }
 
 /* Ajustes para telas muito pequenas (ex.: smartphones) */
@@ -231,5 +235,9 @@ img.socialIcon {
 
   .container .box {
     padding: 15px;
+  }
+
+  section {
+    margin-bottom: 0.3rem; /* Reduz ainda mais o espaço para telas muito pequenas */
   }
 }

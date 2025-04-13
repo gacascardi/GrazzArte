@@ -22,7 +22,7 @@ const siteProps = {
 };
 
 const primaryColor = "#4E567E";
-const secondaryColor = "#D2F1E4";
+// const secondaryColor = "#D2F1E4"; // Removed as it was unused
 
 const App = () => {
   return (
@@ -32,7 +32,16 @@ const App = () => {
       <About />
       <Portfolio />
       <Services />
-      <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+      <Footer
+        email={siteProps.email}
+        gitHub={siteProps.gitHub}
+        instagram={siteProps.instagram}
+        linkedIn={siteProps.linkedIn}
+        name={siteProps.name}
+        primaryColor={primaryColor}
+        twitter={siteProps.twitter}
+        youTube={siteProps.youTube}
+      />
     </div>
   );
 };
