@@ -34,6 +34,9 @@ const Header = () => {
       <a className="header-menu" href="#footer">
         Contato
       </a>
+      <a className="header-menu" href="#services">
+        Serviços
+      </a>
     </div>
   );
 };

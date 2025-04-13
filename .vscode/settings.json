@@ -3,5 +3,6 @@
         "Estilos",
         "gerais",
         "largura"
-    ]
+    ],
+    "DockerRun.DisableDockerrc": true
 }

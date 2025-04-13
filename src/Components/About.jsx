@@ -1,49 +1,27 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
-
 import React from "react";
 
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
-import image from "../images/background.png"; // Ensure this path is correct
+import image from "../images/background.png";
 
 const imageAltText = "meu background";
+const description =
+  " Estou em busca de oportunidades que me ajudem a crescer profissionalmente," +
+  " ganhar experiência e gerar renda com aquilo que amo fazer:" +
+  " resolver problemas usando a tecnologia.";
 
-/**
- * Sort description that expands on your title on the Home component.
- */
-const description = "Apaixonada por tecnologia e logística.";
-
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
 const skillsList = [
-  "Tecnologia da Informação",
-  "Logística",
-  "Artes com imagens",
-  "Aprendizado contínuo",
+  "Estudante de Gestão da Tecnologia da Informação",
+  "Amo resolver problemas com tecnologia",
+  "Criativa e apaixonada por design",
+  "Foco em soluções práticas e rápidas",
+  "Aprendendo sempre!",
 ];
 
-const detailOrQuote = `
-Sempre amei descobrir como as coisas funcionam e a tecnologia sempre foi minha paixão, mas hoje tenho um novo amor que é a Logística.
-
-No entanto, em meio aos processos da minha área, mergulhei na tecnologia novamente e, então, reacendi minha paixão por TI. 
-
-Acredito que a interseção entre tecnologia e logística pode trazer soluções inovadoras e eficientes para os desafios do meu dia a dia.
-`;
-
+/* "Manutenção e formatação de computadores",
+  "Instalação de softwares e redes básicas",
+  "Criação de sites com WordPress e Wix",
+  "Noções de HTML, CSS e lógica de programação",
+  "Familiaridade com Azure e GitHub"
+*/
 const About = () => {
   return (
     <section className="padding" id="about">
@@ -56,13 +34,13 @@ const About = () => {
       <div
         style={{
           backgroundColor: "rgba(80, 240, 120, 0.1)",
-          width: "40%",
-          padding: "10rem",
-          margin: "4rem 3rem 4rem 3rem",
+          width: "75%",
+          padding: "1rem",
+          margin: "0",
           textAlign: "center",
         }}
       >
-        <h2>O primeiro amor a gente nunca esquece.</h2>
+        <h2>Prazer, Grazi!</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
@@ -70,7 +48,7 @@ const About = () => {
             textAlign: "left",
             columns: 1,
             fontSize: "1.1rem",
-            margin: "2rem",
+            margin: "1rem",
             gap: "1rem",
           }}
         >
@@ -79,7 +57,6 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 1rem 1rem" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

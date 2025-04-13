@@ -9,48 +9,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-@media (max-width: 768px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
-
-  #app {
-    margin: 0 auto;
-    max-width: 100%;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .container .box {
-    width: 90%; /* Ajusta a largura das caixas */
-    padding: 20px;
-  }
-
-  img.background {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-
-  h1, h2, h3 {
-    font-size: 1.5rem; /* Ajusta os tamanhos das fontes */
-  }
-
-  p {
-    font-size: 1rem;
-  }
+  box-sizing: border-box;
 }
 
 html,
@@ -74,11 +33,11 @@ div#main {
 
 section {
   position: relative;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  padding: 1rem;
 }
 
 section.min-height {
@@ -92,27 +51,6 @@ section.padding {
   padding: 0;
   text-align: center;
   width: 100%;
-}
-@media (min-width: 768px) {
-  section.padding {
-    padding: 2rem 0;
-  }
-  section img.background {
-    height: auto;
-    object-fit: cover;
-  }
-  section img.background {
-    height: 100%;
-    left: 50%;
-    object-fit: cover;
-    pointer-events: none;
-    position:absolute;
-    top: 0;
-    transform: translate(-50%, 0);
-    width: 100vmax;
-    z-index: -1;
-  }
-
 }
 
 section img.background {
@@ -204,8 +142,9 @@ a:hover {
 .container {
   display: grid;
   grid-gap: 20px; 
-  grid-template-columns: 330px 300px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 20px auto;
+  width: 100%;
 }
 
 .container .box {
@@ -223,4 +162,74 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* Ajustes para telas menores */
+/* Merged @media (max-width: 768px) styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 11px;
+    padding: 0;
+  }
+
+  #app {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  li {
+    text-align: left;
+    list-style-type: none;
+    list-style-position: inside;
+    list-style: disc;
+    padding-left: 2px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;  
+    font-size: 1rem;
+  }
+  h1, h2, h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    grid-template-columns: 1fr;
+  }
+
+  .container .box {
+    width: 100%;
+    padding: 2px;
+  }
+
+  img.background {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+/* Ajustes para telas muito pequenas (ex.: smartphones) */
+@media (max-width: 480px) {
+  h1, h2, h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    gap: 10px;
+  }
+
+  .container .box {
+    padding: 15px;
+  }
 }

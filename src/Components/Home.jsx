@@ -34,13 +34,14 @@ const Home = () => {
         style={{
           zIndex: 1,
           position: "absolute",
-          top: "3rem",
-          height: "auto",
-          width: "auto",
+          top: "2rem",
+          marginBottom: "0",
+          height: "490px",
+          width: "100%",
           filter: "brightness(70%)",
           borderRadius: "70px",
           boxShadow: "-6px -6px 9px 9px rgba(18, 243, 29, 0.56)",
-          display: "fixed",
+          display: "block",
           objectFit: "cover",
         }}
       />
