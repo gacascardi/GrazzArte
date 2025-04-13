@@ -33,13 +33,13 @@ const projectList = [
     title: "Novo Projeto",
     description:
       "Um projeto inovador que estou desenvolvendo para aprimorar minhas habilidades em programação.",
-    url: "https://github.com/gacascardi/novo-projeto",
+    url: "https://github.com/gacascardi/mimos-da-dany",
   },
   {
     title: "Amor pelo funcionamento",
     description:
       "Aplico meus conhecimentos oferecendo serviços como suporte técnico, criação de sites e manutenção de softwares em geral.",
-    url: "https://github.com/gacascardi/novo-projeto-adicional",
+    url: "https://github.com/gacascardi",
   },
 ];
 
