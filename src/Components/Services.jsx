@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="min-height padding">
+    <section className="min-height padding" id="services">
       <h2>Serviços & Preços</h2>
       <div className="container">
         <div className="box">

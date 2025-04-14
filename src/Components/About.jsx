@@ -47,7 +47,7 @@ const About = () => {
           position: "relative",
         }}
       >
-        <h2>Prazer, Grazi!</h2>
+        <h1>Prazer, Grazi!</h1>
         <p className="large">{description}</p>
         <hr />
         <ul

@@ -20,18 +20,7 @@ import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
 
 const Footer = (props) => {
-  const {
-    devDotTo,
-    email,
-    gitHub,
-    instagram,
-    linkedIn,
-    medium,
-    name,
-    primaryColor,
-    twitter,
-    youTube,
-  } = props;
+  const { devDotTo, email, gitHub, instagram, linkedIn, medium, name, twitter, youTube } = props;
 
   return (
     <div
@@ -41,9 +30,10 @@ const Footer = (props) => {
         flexDirection: "column",
         alignItems: "center",
         gap: "2.5rem",
-        padding: "5rem 0 3rem",
-        backgroundColor: primaryColor,
-        width: "100vw",
+        padding: "3rem 0 3rem",
+        backgroundColor: "#1b191975",
+        width: "100%",
+        fontSize: "1px",
       }}
     >
       <div
@@ -106,7 +96,7 @@ const Footer = (props) => {
           </a>
         )}
       </div>
-      <p className="small" style={{ marginTop: 0, color: "white" }}>
+      <p className="footer-a" style={{ marginTop: 0, color: "white" }}>
         Desenvolvido por: {name}
       </p>
     </div>
@@ -125,7 +115,7 @@ Footer.propTypes = {
   linkedIn: PropTypes.string,
   medium: PropTypes.string,
   name: PropTypes.string.isRequired,
-  primaryColor: PropTypes.string,
+  primaryColor: PropTypes.string.isRequired,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
 };

@@ -6,11 +6,13 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Services from "./Components/Services";
+import Contact from "./Components/Contact";
+// Removed unused import
 
 import "./styles.css";
 
 const siteProps = {
-  name: "GrazzArte",
+  name: "2025 ©GrazzArte. Todos os direitos reservados.",
   title: "",
   email: "gacascardi@outlook.com",
   gitHub: "gacascardi",
@@ -21,7 +23,7 @@ const siteProps = {
   youTube: "",
 };
 
-const primaryColor = "#4E567E";
+const primaryColor = "#70f1dc";
 // const secondaryColor = "#D2F1E4"; // Removed as it was unused
 
 const App = () => {
@@ -32,6 +34,8 @@ const App = () => {
       <About />
       <Portfolio />
       <Services />
+      <Contact />
+      {/* Removed unused component */}
       <Footer
         email={siteProps.email}
         gitHub={siteProps.gitHub}
