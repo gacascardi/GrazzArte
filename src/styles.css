@@ -45,7 +45,7 @@ section {
 }
 
 section.min-height {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 
@@ -318,11 +318,11 @@ img.socialIcon {
     align-items: center; /* Centraliza os itens */
     padding: 0.5rem; /* Adiciona espaçamento interno */
     gap: 1.5rem; /* Reduz o espaçamento entre os itens */  
-    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
   }
   .header-menu a {
     text-decoration: none; /* Remove sublinhado */
-    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
     padding: 0.4rem 0.8rem; /* Ajusta o espaçamento interno */
     width: 100%; /* Faz os links ocuparem toda a largura */
     text-align: center; /* Centraliza o texto */
@@ -371,7 +371,7 @@ img.socialIcon {
   .header-menu {
     padding: 0.5rem; /* Reduz o espaçamento interno */
     gap: 0.5rem; /* Reduz o espaçamento entre os itens */
-    font-size: 0.9rem; /* Reduz o tamanho da fonte */
+    font-size: 1rem; /* Reduz o tamanho da fonte */
     width: 100%; /* Faz os links ocuparem toda a largura */
     text-align: center; /* Centraliza o texto */
   }
@@ -469,7 +469,7 @@ img.socialIcon {
   .header-menu {
     padding: 0.5rem; /* Reduz o espaçamento interno */
     gap: 0.2rem; /* Reduz o espaçamento entre os itens */
-    font-size: 0.9rem; /* Reduz o tamanho da fonte */
+    font-size: 1rem; /* Reduz o tamanho da fonte */
     width: 100%; /* Faz os links ocuparem toda a largura */
     text-align: center; /* Centraliza o texto */
   }
