@@ -318,11 +318,11 @@ img.socialIcon {
     align-items: center; /* Centraliza os itens */
     padding: 0.5rem; /* Adiciona espaçamento interno */
     gap: 1.5rem; /* Reduz o espaçamento entre os itens */  
-    font-size: 0.7rem; /* Ajusta o tamanho da fonte */
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
   }
   .header-menu a {
     text-decoration: none; /* Remove sublinhado */
-    font-size: 0.7rem; /* Ajusta o tamanho da fonte */
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
     padding: 0.4rem 0.8rem; /* Ajusta o espaçamento interno */
     width: 100%; /* Faz os links ocuparem toda a largura */
     text-align: center; /* Centraliza o texto */
@@ -353,6 +353,11 @@ img.socialIcon {
      section.min-height {
     min-height: 60vh; /* Espaçamento AboutXBanner Alterado para 50vh */
   }
+  #contact-form input {
+    width: 100%; /* Faz os inputs ocuparem toda a largura */
+    padding: 0.5rem; /* Ajusta o espaçamento interno */
+    font-size: 0.8rem; /* Ajusta o tamanho da fonte */
+  }
   
 }
 /*fim 480 X 768*/
@@ -360,19 +365,19 @@ img.socialIcon {
 /* Ajustes para telas muito pequenas (ex.: smartphones) */
 @media screen and (max-width: 480px) {
   body {
-    font-size: 11px; /* Ajusta o tamanho da fonte */
+    font-size: 10px; /* Ajusta o tamanho da fonte */
   }
 
   .header-menu {
     padding: 0.5rem; /* Reduz o espaçamento interno */
     gap: 0.5rem; /* Reduz o espaçamento entre os itens */
-    font-size: 0.7rem; /* Reduz o tamanho da fonte */
+    font-size: 0.9rem; /* Reduz o tamanho da fonte */
     width: 100%; /* Faz os links ocuparem toda a largura */
     text-align: center; /* Centraliza o texto */
   }
 
   .header-menu a {
-    font-size: 0.7rem; /* Ajusta o tamanho da fonte */
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
     padding: 0.4rem 0.8rem; /* Ajusta o espaçamento interno */
   }
 
@@ -391,6 +396,11 @@ img.socialIcon {
   }
   section.min-height {
     min-height: 60vh; /* Espaçamento AboutXBanner Alterado para 50vh */
+  }
+  #contact-form input {
+    width: 100%; /* Faz os inputs ocuparem toda a largura */
+    padding: 0.5rem; /* Ajusta o espaçamento interno */
+    font-size: 0.8rem; /* Ajusta o tamanho da fonte */
   }
 }
 /*fim max 480*/
