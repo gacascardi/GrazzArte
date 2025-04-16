@@ -1,4 +1,4 @@
-# 🌐 Portfólio Pessoal - Grazi Cascardi
+# 🌐 Portfólio - GrazzArte
 
 Este é meu site pessoal, desenvolvido como parte do meu aprendizado em desenvolvimento web e hospedado via GitHub Pages.
 
